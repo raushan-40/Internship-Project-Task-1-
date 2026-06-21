@@ -1,1 +1,19 @@
-# Prodesk IT — Prompts for content & iteration\n\nUse these prompts with AI or designers to refine content, tone, and visuals.\n\n1) Create marketing copy for the hero section:\n"Write a concise hero headline (6 words max) and a 1-sentence supporting line for a professional IT services company focusing on managed services, cloud migration, and cybersecurity."\n\n2) Tone & voice adjustments:\n"Convert the following paragraph to a more formal tone / a more friendly tone / a technical tone."\n\n3) Service detail expansion:\n"Expand the 'Cloud Services' card into a 100-word paragraph explaining benefits, typical migration steps, and security considerations."\n\n4) SEO meta description suggestions:\n"Provide 5 meta descriptions (max 160 characters) for Prodesk IT targeting small and medium businesses searching for managed IT and cloud services."\n\n5) Accessibility checklist reminders:\n"List 10 accessibility improvements to apply to the landing page to meet WCAG AA standards."\n\n6) Design alternatives:\n"Suggest 3 color palette alternatives (primary + secondary + accent) that convey trust and modernity. Provide hex codes and short rationale."\n\n7) Call-to-action testing:\n"Provide 6 alternative CTA texts for the primary button aimed at improving conversions."\n\n8) Localization prompt:\n"Translate the hero headline and supporting line to Spanish (Latin America) and provide culturally appropriate variations."\n\n---\n\nCopy or adapt these prompts to iterate content, UX, and design quickly using your preferred AI assistant or designer.
+# AI Prompts Used During Development
+
+## Prompt 1
+Create a complete professional landing page for Prodesk IT using HTML, CSS, and JavaScript.
+
+## Prompt 2
+Implement responsive navigation with a mobile hamburger menu.
+
+## Prompt 3
+Add a dark/light theme toggle with localStorage support.
+
+## Prompt 4
+Create responsive service cards using CSS Grid and Flexbox.
+
+## Prompt 5
+Implement sticky navigation and hover animations.
+
+## Prompt 6
+Review the project for accessibility, responsiveness, and performance improvements.
