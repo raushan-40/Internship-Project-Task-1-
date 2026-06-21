@@ -85,7 +85,7 @@ Theme preference is automatically saved using browser local storage.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/prodesk-it-landing-page.git
+git clone https://github.com/raushan-40/Internship-Project-Task-1-
 ```
 
 2. Open the project folder:
@@ -109,14 +109,22 @@ Right Click index.html
 
 ## 📸 Screenshots
 
-Add screenshots of the homepage here before submission.
-
-Example:
-
 - Homepage
+  <img width="1919" height="930" alt="image" src="https://github.com/user-attachments/assets/058a63f1-7f41-4b16-8bfe-2bfeaa34a5b6" />
+
+
 - Services Section
+  <img width="1919" height="928" alt="image" src="https://github.com/user-attachments/assets/a3f9a978-8e73-45a9-97bb-2da7001cb49f" />
+
+
 - Dark Mode View
+  <img width="1919" height="930" alt="image" src="https://github.com/user-attachments/assets/c3f7628f-9616-415e-ad3a-1bebafafb1de" />
+  <img width="1919" height="932" alt="image" src="https://github.com/user-attachments/assets/c6eae914-d3c9-49c0-bd5f-3ac075db2672" />
+
+
+  
 - Mobile View
+<img width="1231" height="932" alt="image" src="https://github.com/user-attachments/assets/8e3483e8-bd13-4b45-ad6c-1f8481ceca4c" />
 
 ---
 
@@ -138,8 +146,6 @@ Example:
 **Raushan Kumar**
 
 - IIT Patna – B.Sc. Computer Science & Data Analytics
-- GEC Arwal – B.Tech Computer Science & Engineering
-
 ---
 
 ## 📄 License
