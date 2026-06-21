@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prodesk IT — Professional IT Services</title>
+  <meta name="description" content="Prodesk IT provides modern IT solutions: managed IT, cloud services, cybersecurity, and custom software for businesses.">
+  <script>
+    (function(){
+      try{
+        var t = localStorage.getItem('theme');
+        if(t) document.documentElement.setAttribute('data-theme', t);
+        else if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.setAttribute('data-theme','dark');
+      }catch(e){}
+    })();
+  </script>
+  <link rel="preload" href="style.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="style.css"></noscript>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="/" class="logo" aria-label="Prodesk IT home">Prodesk <span>IT</span></a>
+      <nav class="nav" id="primary-nav" role="navigation" aria-label="Primary navigation">
+        <ul class="nav-list" role="menubar">
+          <li role="none"><a role="menuitem" href="#home">Home</a></li>
+          <li role="none"><a role="menuitem" href="#about">About</a></li>
+          <li role="none"><a role="menuitem" href="#services">Services</a></li>
+          <li role="none"><a role="menuitem" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-controls">
+        <button id="theme-toggle" class="theme-toggle" aria-pressed="false" aria-label="Toggle dark mode">
+          <svg class="icon icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" fill="currentColor" />
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <svg class="icon icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="currentColor" />
+          </svg>
+        </button>
+        <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" role="main">
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <header class="hero-header">
+            <h1>Reliable IT, delivered—secure, scalable, and simple.</h1>
+            <p class="lead">End-to-end IT for growing businesses: managed services, cloud migration, security, and custom software.</p>
+          </header>
+          <div class="hero-actions">
+            <a href="#contact" class="btn primary">Get a Quote</a>
+            <a href="#services" class="btn ghost">Explore Services</a>
+          </div>
+          <ul class="trust-list" aria-label="Trust indicators">
+            <li>24/7 Support</li>
+            <li>ISO Compliant</li>
+            <li>Cloud-first</li>
+          </ul>
+        </div>
+        <div class="hero-image">
+          <img src="hero.svg" alt="Illustration of IT infrastructure" class="hero-illustration" loading="lazy" width="480" height="320">
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services" aria-labelledby="services-heading">
+      <div class="container">
+        <h2 id="services-heading" class="section-title">Our Services</h2>
+        <p class="section-sub">Flexible packages tailored to businesses of all sizes.</p>
+        <div class="services-grid" role="list">
+          <article class="card" role="listitem">
+            <h3>SEO</h3>
+            <p>Improve search visibility with technical SEO, content strategy, and analytics-driven optimization.</p>
+          </article>
+          <article class="card" role="listitem">
+            <h3>Web Development</h3>
+            <p>Modern, responsive web applications focused on performance, accessibility, and maintainability.</p>
+          </article>
+          <article class="card" role="listitem">
+            <h3>Digital Marketing</h3>
+            <p>Data-led campaigns including PPC, social media, and email to grow leads and conversions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section features">
+      <div class="container features-grid">
+        <div class="feature">
+          <h3>Scalable Solutions</h3>
+          <p>Architecture designed to grow with your business using modern cloud-native patterns.</p>
+        </div>
+        <div class="feature">
+          <h3>Expert Team</h3>
+          <p>Certified engineers with years of experience across industries.</p>
+        </div>
+        <div class="feature">
+          <h3>Transparent Pricing</h3>
+          <p>Clear SLAs and predictable monthly costs with no hidden fees.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section testimonials">
+      <div class="container">
+        <h2 class="section-title">What Clients Say</h2>
+        <div class="testimonials-grid">
+          <blockquote class="testimonial">
+            <p>Prodesk IT transformed our infrastructure and improved uptime dramatically.</p>
+            <cite>— Sarah M., CTO</cite>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>Fast, reliable support and clear communication. Highly recommended.</p>
+            <cite>— Daniel R., COO</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2>Talk to an expert</h2>
+          <p>Schedule a free consultation and get a custom plan for your IT needs.</p>
+          <ul class="contact-list">
+            <li>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></li>
+            <li>Email: <a href="mailto:hello@prodesk.example">hello@prodesk.example</a></li>
+            <li>Address: 123 Business Rd, Suite 100</li>
+          </ul>
+        </div>
+        <form id="contactForm" class="contact-form" novalidate>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit" class="btn primary">Send Message</button>
+          <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="muted">&copy; <span id="year"></span> Prodesk IT.</p>
+        <p class="muted small">Managed IT • Cloud • Security • Software</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#privacy">Privacy</a>
+        <a href="#terms">Terms</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
